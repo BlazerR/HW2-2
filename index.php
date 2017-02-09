@@ -44,6 +44,8 @@
 	      echo "Today is " . date("l"); ?>	
 	
     </form>
+	<?php echo "Calculation done on " . date("Y/m/d") ."<br>";
+              echo "Today is " . date("l"); ?>
     </main>
 </body>
 </html>
