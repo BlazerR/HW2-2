@@ -42,8 +42,7 @@
             <input type="submit" value="Calculate"><br>
         </div>
 	<?php echo "Calculation done on " . date("Y/m/d") ."<br>";
-	      echo "Today is " . date("l");
-	      echo "The time is " . date("h:i:sa"); ?>		
+	      echo "Today is " . date("l");  ?>		
     </form>
     </main>
 </body>
