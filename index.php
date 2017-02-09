@@ -4,6 +4,10 @@
     if (!isset($interest_rate)) { $interest_rate = ''; } 
     if (!isset($years)) { $years = ''; } 
 ?> 
+<?php echo "Calculation done on " . date("Y/m/d") ."<br>";
+              echo "Today is " . date("l");
+              echo "The time is " . date("h:i:sa"); ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -41,11 +45,9 @@
             <input type="submit" value="Calculate"><br>
         </div>
 	<?php echo "Calculation done on " . date("Y/m/d") ."<br>";
-	      echo "Today is " . date("l"); ?>	
-	
+	      echo "Today is " . date("l");
+	      echo "The time is " . date("h:i:sa"); ?>		
     </form>
-	<?php echo "Calculation done on " . date("Y/m/d") ."<br>";
-              echo "Today is " . date("l"); ?>
     </main>
 </body>
 </html>
