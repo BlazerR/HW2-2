@@ -40,7 +40,7 @@
             <label>&nbsp;</label>
             <input type="submit" value="Calculate"><br>
         </div>
-	<?php echo "Calculation done on " . date("Y/m/d") ."<br>"
+	<?php echo "Calculation done on " . date("Y/m/d") ."<br>";
 	      echo "Today is " . date("l"); ?>	
 	
     </form>
