@@ -4,9 +4,6 @@
     if (!isset($interest_rate)) { $interest_rate = ''; } 
     if (!isset($years)) { $years = ''; } 
 ?> 
-<?php echo "Calculation done on " . date("Y/m/d") ."<br>";
-              echo "Today is " . date("l");
-              echo "The time is " . date("h:i:sa"); ?>
 
 <!DOCTYPE html>
 <html>
